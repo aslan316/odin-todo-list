@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="project-container">
+        <h4>Projects</h4>
+        <div id="projects">
+          <div class="project active">My Project</div>
+          <div class="project">My Project</div>
+          <div class="project">My Project</div>
+        </div>
+        <button id="add-project-button">
+          <img src="./assets/plus-thick.svg" alt="plus" />
+        </button>
+      </div>
+      <div id="task-container">
+        <div id="tasks">
+          <div class="task">
+            <p class="task-name">Task Name</p>
+            <p class="task-description">Description...</p>
+            <p class="task-date">MM/DD/YYYY</p>
+          </div>
+          <button class="checkbox"></button>
+          <div class="task">
+            <p class="task-name">Task Name</p>
+            <p class="task-description">Description...</p>
+            <p class="task-date">MM/DD/YYYY</p>
+          </div>
+          <button class="checkbox"></button>
+        </div>
+        <button id="add-task-button">
+          <img src="assets/plus-thick.svg" alt="plus" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
