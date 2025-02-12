@@ -66,7 +66,7 @@ button:hover {
 .project:hover {
   background-color: #313f0d;
   transition: background-color 200ms;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .project.active {
@@ -98,7 +98,7 @@ button:hover {
 #tasks .task:hover {
   background-color: #fcf6e6;
   color: #313f0d;
-  cursor: grab;
+  cursor: pointer;
   transition:
     background-color 200ms,
     color 200ms;
